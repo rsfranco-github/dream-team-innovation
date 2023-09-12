@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "c53d90d2-183b-4928-9872-cfb3f10c9714",
+		"name": "Google Scholar API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "11104958",
+		"_collection_link": "https://universal-satellite-123618.postman.co/workspace/Developer~57cc7386-8570-40bc-b72c-9a59d27f00c7/collection/11104958-c53d90d2-183b-4928-9872-cfb3f10c9714?action=share&source=collection_link&creator=11104958"
+	},
+	"item": [
+		{
+			"name": "google_scholar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://serpapi.com/search.json?engine=google_scholar&q=biology&api_key=ddb54e522ef6f37417062521e237b07e6388e26152be7d872c490cdec596dea8",
+					"protocol": "https",
+					"host": [
+						"serpapi",
+						"com"
+					],
+					"path": [
+						"search.json"
+					],
+					"query": [
+						{
+							"key": "engine",
+							"value": "google_scholar"
+						},
+						{
+							"key": "q",
+							"value": "biology"
+						},
+						{
+							"key": "api_key",
+							"value": "ddb54e522ef6f37417062521e237b07e6388e26152be7d872c490cdec596dea8"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
